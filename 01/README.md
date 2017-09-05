@@ -112,7 +112,7 @@ Jelikož se jedná o aktivní prostředí, je v seznamu označeno hvězdičkou s
 
 V příkazové řádce lze teď R jednoduše spustit pomocí příkazu `R`. Stejně tak lze spustit i RStudio (pomocí `rstudio`)  a potažmo další software, který byste mohli potřebovat. Celého prostředí se všemi balíčky se pak snadno můžete zbavit pomocí příkazu `conda env remove -n statistika` (nezapomeňte se z něj nejprve odhlásit pomocí `deactivate statistika`). Pokud se chcete zbavit i stažených balíčků a cache, můžete tak potom učinit příkazem `conda clean --all`. Zatím si však prostředí nechte. V tutoriálu jej budeme ještě potřebovat.
 
-Vraťme se teď však k Jupyteru. V našem prostředí teď totiž máme k dispozici příkaz `jupyter-notebook`, který nám přímo v okně prohlížeče otevře aktuální adresář, což může vypadat nějak takto:
+Vraťme se zase zpět k Jupyteru. V našem prostředí teď totiž máme k dispozici příkaz `jupyter-notebook`, který nám přímo v okně webového prohlížeče otevře aktuální adresář, což může vypadat nějak takto:
 
 ![jupyter_gui.png](jupyter_gui.png  "jupyter_gui.png")
 
