@@ -1,6 +1,6 @@
 # Jupyter Notebook &ndash; letem světem
 
-V tomto krátkém tutoriálu si ukážeme ty nejdůležitější praktické aspekty používaní Jupyter notebooků a zároveň si vyzkoušíme některé základní funkce jazyka R. V tomto tutoriálu se předpokládá, že již máme nainstalované vývojové prostředí a spuštěný notebook (popsáno v [předchozím tutoriálu](../02/)). Čili před sebou vidíme něco jako toto:
+V tomto krátkém tutoriálu si ukážeme ty nejdůležitější praktické aspekty používaní Jupyter notebooků a zároveň si vyzkoušíme některé základní funkce jazyka R. V tomto tutoriálu se předpokládá, že již máme nainstalované vývojové prostředí a spuštěný notebook (popsáno v [předchozím tutoriálu](../01/)). Čili před sebou vidíme něco jako toto:
 
 ![notebook_empty.png](notebook_empty.png  "notebook_empty.png")
 
