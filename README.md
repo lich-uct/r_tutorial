@@ -1,0 +1,3 @@
+# Statistická analýza dat -- tutorial
+
+Nějaké intro a tak...
