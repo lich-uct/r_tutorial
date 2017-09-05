@@ -1,8 +1,13 @@
+"""
+needs python 3 to run properly
+"""
+
 import os
 
 d='.'
 lessons = [os.path.join(d,o) for o in os.listdir(d) if os.path.isdir(os.path.join(d,o)) and not o.startswith('.')]
 
+print('## Seznam lekcí\n')
 for idx, lesson in enumerate(lessons):
     heading = None
     with open(os.path.join(lesson, 'README.md'), mode='r') as readme:
