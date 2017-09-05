@@ -28,7 +28,7 @@ K vypisování výstupu nemusíme vždy nutně využívat funkce `print`, ale lz
 
 Toto funguje díky tomu, že každý objekt v R má vždy danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek posledního příkazu. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je trochu jiné.
 
-Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vzkonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální.
+Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vzkonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/).
 
 Dalším nejčastějším úkonem je přiřazování do proměnných, což se [doporučuje](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html) dělat operátorem `<-`:
 
