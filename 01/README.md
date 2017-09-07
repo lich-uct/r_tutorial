@@ -24,7 +24,9 @@ Instalace je obdobná a pokud vše proběhlo, jak mělo, tak se vám po nastarto
 
 ![RStudio.png](RStudio.png  "RStudio.png")
 
-Co všechno RStudio umí a jak v něm pracovat je nad rámec tohoto krátkého tutoriálu, ale jedná se o velice intuitivní nástroj, jehož základní funkce lze pochopit během několika minut.
+Co všechno RStudio umí a jak v něm pracovat je nad rámec tohoto krátkého tutoriálu, ale jedná se o velice intuitivní nástroj, jehož základní funkce lze pochopit během několika minut. 
+
+Stojí za to ještě zmínit, že je k dispozici i tzv. "portable" verze RStudia, kterou není třeba instalovat. Je tak možné ji využít například na univerzitních počítačích, kde nemá uživatel dostatek práv pro instalaci nového software. Portable RStudio je dostupné pod [stejným odkazem jako běžná verze](https://www.rstudio.com/products/rstudio/download/). Stačí jenom zvolit verzi ze sekce "Zip/tar archives" místo "Installers". Po rozbalení archivu pak stačí jen najít spouštěcí soubor (pro Windows je to `rstudio.exe` ve složce `bin`).
 
 ### Anaconda a Jupyter Notebook
 
