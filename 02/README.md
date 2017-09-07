@@ -26,7 +26,7 @@ K vypisování výstupu nemusíme vždy nutně využívat funkce `print`, ale lz
 
 ![hello_world_simple.png](hello_world_simple.png  "hello_world_simple.png")
 
-Toto funguje díky tomu, že každý objekt v R má vždy danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek posledního příkazu. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je trochu jiné.
+Toto funguje díky tomu, že každý objekt v R má většinou danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek každého příkazu, jehož výstupem je nějaká textově reprezentovatelná hodnota. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je taky trochu jiné.
 
 Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vzkonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/).
 
@@ -61,6 +61,3 @@ Všechny další tutoriály již budou psány téměř výhradně ve formě Jupy
 vygeneruje v [našem notebooku](02.ipynb) následující výstup:
 
 ![notes.png](notes.png  "notes.png")
-
-
-
