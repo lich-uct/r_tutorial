@@ -4,7 +4,7 @@ V tomto krátkém tutoriálu si ukážeme ty nejdůležitější praktické aspe
 
 ![notebook_empty.png](notebook_empty.png  "notebook_empty.png")
 
-Jupyter notebooky fungují na systému buňek (*cells*), do kterých uživatel píše kód, který chce po programu vykonat. Výstup z buňky je potom po vykonání příkazu zobrazen pod ní. Ukažme si tedy jak vykonat jden z nejjednodušších příkazů historie programovacích jazyků a totiž vypsání libovolného textu do výstupu programu. V R toho docílíme následovně:
+Jupyter notebooky fungují na systému buňek (*cells*), do kterých uživatel píše kód, který chce po programu vykonat. Výstup z buňky je potom po vykonání příkazu zobrazen pod ní. Ukažme si tedy jak vykonat jeden z nejjednodušších příkazů historie programovacích jazyků a totiž vypsání libovolného textu do výstupu programu. V R toho docílíme následovně:
 
 ```R
 print("Ahoj světe!")
@@ -28,7 +28,7 @@ K vypisování výstupu nemusíme vždy nutně využívat funkce `print`, ale lz
 
 Toto funguje díky tomu, že každý objekt v R má většinou danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek každého příkazu, jehož výstupem je nějaká textově reprezentovatelná hodnota. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je taky trochu jiné.
 
-Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vzkonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/).
+Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vykonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/).
 
 Dalším nejčastějším úkonem je přiřazování do proměnných, což se [doporučuje](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html) dělat operátorem `<-`:
 
@@ -48,7 +48,7 @@ Můžeme si vybrat hned z několika možností, ale tou nejčastější je pravd
 
 Toto tedy byly ty nejnutnější základy, kterým je třeba porozumět při práci s Jupyter Notebooky. Ostatní funkce jsou poměrně intuitivní a není je třeba moc vysvětlovat. Koncept *learning by doing* zde funguje docela dobře. 
 
-Všechny další tutoriály již budou psány téměř výhradně ve formě Jupyter notebooků, do kterých lze vkládat formátované poznámky nebo i matematické vzorce. Například buňka přepnutá do formátu Markdown (pomocí tlačítka na ovládacím panelu) formátovaná následujícím způsobem:
+Všechny další tutoriály již budou psány téměř výhradně ve formě Jupyter notebooků, do kterých lze vkládat formátované poznámky nebo i matematické vzorce. Například buňka přepnutá do formátu Markdown (pomocí tlačítka na ovládacím panelu) s následujícím obsahem:
 
 ```Markdown
 # Vzorečky
@@ -58,6 +58,6 @@ Všechny další tutoriály již budou psány téměř výhradně ve formě Jupy
 - Schrödingerova rovnice: ${\displaystyle \mathrm {i} \hbar {\frac {\partial \Psi }{\partial t}}=-{\frac {\hbar ^{2}}{2m}}\Delta \Psi +V\Psi }$
 ```
 
-vygeneruje v [našem notebooku](02.ipynb) následující výstup:
+vygeneruje v [našem notebooku](02.ipynb) takovýto výstup:
 
 ![notes.png](notes.png  "notes.png")
