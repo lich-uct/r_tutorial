@@ -11,3 +11,36 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 1. [Instalace a první spuštění R](./01)
 2. [Jupyter Notebook &ndash; letem světem](./02)
 3. [Základy programování v R](./03)
+
+## Rychlý návod k instalaci prostředí a spuštění notebooků
+
+Stáhněte se distribuci balíčkovacího systému [Miniconda](https://conda.io/miniconda.html). Pomocí Anaconda Prompt si do hlavního prostředí nainstalujte git, pokud ho nemáte:
+
+```bash
+conda install -c conda-forge git
+```
+
+Po instalaci přejděte do adresáře, kde chcete mít repozitář s tutoriálem uložený, například na Windows by to mohlo být:
+
+```bash
+D:
+cd moje_projekty\sad_2017
+```
+
+a použijte git pro získání obrazu repozitáře a přejděte do něj:
+
+```bash
+git clone https://github.com/lich-uct/r_tutorial.git
+cd r_tutorial
+```
+Vytvořte si pracovní prostředí pomocí souboru `environment.yml`:
+
+```bash
+conda env create -n sadenv -f environment.yml
+```
+
+Nyní byste již měli být schopní spustit Jupyter Notebook server a vše by mělo fungovat:
+
+```
+jupyter-notebook
+```
