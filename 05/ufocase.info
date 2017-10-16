@@ -1,0 +1,17 @@
+Dataset:  ufocase.dat
+
+Source:  www.ufocasebook.com
+
+Description:  UFO/Alien Cases, including categorical outcomes:
+Presence/Absence of physical effects, multimedia (picture/video),
+ET contact, and abduction.
+
+Variable/Columns
+
+Year 1-4 
+Name of sighting/event  7-56
+Location   60-72
+Physical effects 75   /* 1=Yes, 0=No  */
+Multimedia  79  /*  1=Yes, 0=No  */
+ET contact   83  /* 1=Yes, 0=No  */
+Abduction   87   /*  1=Yes, 0=No  */
