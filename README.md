@@ -11,7 +11,8 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 1. [Instalace a první spuštění R](./01)
 2. [Jupyter Notebook &ndash; letem světem](./02)
 3. [Základy programování v R](./03)
-4. [Datové struktury v R](./04)
+4. [Datové struktury](./04)
+5. [Manipulace dat](./05)
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
