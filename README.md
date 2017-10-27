@@ -42,7 +42,13 @@ Vytvořte si pracovní prostředí pomocí souboru `environment.yml`:
 conda env create -n sadenv -f environment.yml
 ```
 
-Nyní byste již měli být schopní spustit Jupyter Notebook server a vše by mělo fungovat:
+a aktivujte jej:
+
+```bash
+activate sadenv # syntaxe pro Windows
+```
+
+Nyní byste již měli být schopni si v libovolné složce spustit Jupyter Notebook server a vše by mělo fungovat:
 
 ```
 jupyter-notebook
