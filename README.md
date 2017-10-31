@@ -13,6 +13,7 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 3. [Základy programování v R](./03)
 4. [Datové struktury](./04)
 5. [Manipulace dat](./05)
+6. [Popisná statistika](./06)
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
@@ -41,7 +42,13 @@ Vytvořte si pracovní prostředí pomocí souboru `environment.yml`:
 conda env create -n sadenv -f environment.yml
 ```
 
-Nyní byste již měli být schopní spustit Jupyter Notebook server a vše by mělo fungovat:
+a aktivujte jej:
+
+```bash
+activate sadenv # syntaxe pro Windows
+```
+
+Nyní byste již měli být schopni si v libovolné složce spustit Jupyter Notebook server a vše by mělo fungovat:
 
 ```
 jupyter-notebook
