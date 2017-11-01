@@ -14,6 +14,7 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 4. [Datové struktury](./04)
 5. [Manipulace dat](./05)
 6. [Popisná statistika](./06)
+7. [Intervaly spolehlivosti](./07)
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
