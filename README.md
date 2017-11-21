@@ -15,6 +15,8 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 5. [Manipulace dat](./05)
 6. [Popisná statistika](./06)
 7. [Intervaly spolehlivosti](./07)
+8. [Testování statistických hypotéz](./08)
+9. [Procvičování](./procvicovani)
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
