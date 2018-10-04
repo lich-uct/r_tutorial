@@ -31,10 +31,10 @@ Po instalaci přejděte do adresáře, kde chcete mít repozitář s tutoriálem
 
 ```bash
 D:
-cd moje_projekty\sad_2017
+cd moje_projekty\SAD
 ```
 
-a použijte git pro získání obrazu repozitáře a přejděte do něj:
+Potom použijte git pro získání obrazu repozitáře a přejděte do něj:
 
 ```bash
 git clone https://github.com/lich-uct/r_tutorial.git
