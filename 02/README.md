@@ -1,10 +1,10 @@
 # Jupyter Notebook &ndash; letem světem
 
-V tomto krátkém tutoriálu si ukážeme ty nejdůležitější praktické aspekty používaní Jupyter notebooků a zároveň si vyzkoušíme některé základní funkce jazyka R. V tomto tutoriálu se předpokládá, že již máme nainstalované vývojové prostředí a spuštěný notebook (popsáno v [předchozím tutoriálu](../01/)). Čili před sebou vidíme něco jako toto:
+V tomto krátkém tutoriálu si ukážeme ty nejdůležitější praktické aspekty používaní prostředí Jupyter. Podíváme se na základní funkce interaktivních notebooků a zároveň si vyzkoušíme to nejjednodušší z jazyka R. V tomto tutoriálu se předpokládá, že již máte nainstalované vývojové prostředí a spuštěný notebook (popsáno v [předchozím tutoriálu](../01/)). Čili před sebou vidíte něco jako toto:
 
 ![notebook_empty.png](notebook_empty.png  "notebook_empty.png")
 
-Jupyter notebooky fungují na systému buňek (*cells*), do kterých uživatel píše kód, který chce po programu vykonat. Výstup z buňky je potom po vykonání příkazu zobrazen pod ní. Ukažme si tedy jak vykonat jeden z nejjednodušších příkazů historie programovacích jazyků a totiž vypsání libovolného textu do výstupu programu. V R toho docílíme následovně:
+Jupyter notebooky fungují na systému buňek (*cells*), do kterých uživatel píše kód v jazyce R, který chce vykonat. Výstup z buňky je potom po vykonání příkazu zobrazen pod ní. Ukažme si tedy jak vykonat jeden z nejjednodušších příkazů historie programovacích jazyků a to vypsání libovolného textu do výstupu programu. V R toho docílíme následovně:
 
 ```R
 print("Ahoj světe!")
@@ -20,23 +20,23 @@ V notebooku pak vše vypadá takto:
 
 ![hello_world.png](hello_world.png  "hello_world.png")
 
-Číslo 1 v hranatých závorkách je speciální vlastností funkce `print` a slouží ke snadnější navigaci při čtení větších výstupů. Označuje aktuální pořadí prvku vypisovaného vektoru nebo číselné řady na začátku řádku. Tuto funkcionalitu však ještě mnohokrát uvidíme, takže jí tu nebudeme dále rozebírat.
+Číslo 1 v hranatých závorkách je speciální vlastností funkce `print` a slouží ke snadnější navigaci. Číslo označuje aktuální pořadí prvku vypisovaného vektoru nebo číselné řady na začátku řádku. V R je tato notace poměrně běžná a zjednodušuje orientaci v dlouhých výstupech programu. V tomto tutoriálu tuto funkcionalitu ještě mnohokrát uvidíme i u jiných funkcí a datových typů.
 
 K vypisování výstupu nemusíme vždy nutně využívat funkce `print`, ale lze též použít řetězec přímo:
 
 ![hello_world_simple.png](hello_world_simple.png  "hello_world_simple.png")
 
-Toto funguje díky tomu, že každý objekt v R má většinou danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek každého příkazu, jehož výstupem je nějaká textově reprezentovatelná hodnota. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je taky trochu jiné.
+Toto funguje díky tomu, že každý objekt v R má většinou danou nějakou textovou reprezentaci. Jupyter se pak vždy po vyhodnocení buňky pokusí nějakým způsobem zobrazit výsledek každého příkazu, jehož výstupem je nějaká textově reprezentovatelná hodnota. Všimněte si též, že bez použití funkce `print` již není součástí výstupu čislo 1 v hranatých závorkách a i formátování je trochu jiné.
 
-Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vykonání buňky aktuální) a zkusme si několik dalších věcí. Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/).
+Vytvořme si nyní novou buňku (většinou je však již vytvořena automaticky po vykonání buňky aktuální). Nejjednodušším způsobem, jak vytvořit novou buňku je pomocí kombinace kláves <kbd>Esc</kbd> + <kbd>b</kbd>, která požádá program o vytvoření nové buňky pod tou aktuální (vždy označena rámečkem). Podobně funguje i zkratka <kbd>Esc</kbd> + <kbd>a</kbd>, která vytvoří novou buňku nad tou aktuální. Užitečná je i zkratka <kbd>Esc</kbd> + <kbd>d</kbd> + <kbd>d</kbd>, která smaže aktuální buňku. Mnohem více zkratek lze potom nalézt [zde](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/) nebo v nápovědě (menu položka *Help*).
 
-Dalším nejčastějším úkonem je přiřazování do proměnných, což se [doporučuje](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html) dělat operátorem `<-`:
+Zkusme si teď nějaké základní věci v R. Nejčastějším úkonem je přiřazování do proměnných, což se [doporučuje](http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html) dělat operátorem `<-`:
 
 ```R
 a <- "Čau."
 ```
 
-Všechny proměnné, které v notebooku vytvoříte, žijí v kontextu tzv. *kernelu*. Kernel je vlastně interaktivní interpreter porgramovacího jazyka R a pamatuje si všechny vaše proměnné nebo funkce, které jste si nadefinovali. Čili proměnné a příkazy v buňkých se vykonávají v tomto globálním kontextu celého notebooku, který spravuje jeden konkrétní kernel. Jakmile si tedy někde nadefinujete proměnnou, máte k ní přístup z kterékoliv buňky v notebooku (až na vyjímky, ale o tom si řekneme později). Toto chování ilustruje použití nadefinované proměnné v další buňce našeho příkladu:
+Všechny proměnné (tedy i naše proměnná *a*), které v notebooku vytvoříte, žijí v kontextu tzv. *kernelu*. Kernel je je jiný název pro interaktivní interpreter porgramovacího jazyka R. Kernel si pamatuje všechny vaše proměnné nebo funkce, které jste si nadefinovali, a provádí nad nimi operace, které mu zadáte. Čili proměnné a příkazy v buňkách se vykonávají v globálním kontextu kernelu daného Jupyter notebooku. Jakmile si tedy někde nadefinujete proměnnou, máte k ní přístup z kterékoliv buňky v notebooku (až na vyjímky, ale o tom si řekneme později). Čili hodnotu proměnné *a* můžete klidně použít v další buňce:
 
 ![variables.png](variables.png  "variables.png")
 
@@ -44,11 +44,9 @@ Toto chování pro nás občas může představovat problém. Obzvlášť pokud 
 
 ![kernel_restart.png](kernel_restart.png  "kernel_restart.png")
 
-Můžeme si vybrat hned z několika možností, ale tou nejčastější je pravděpodobně *Restart & Run All*, kterou se zresetuje aktuálně běžící kernel a všechny buňky se vyhodnotí znovu. Pouhý *Restart* jen zresetuje kernel, ale vaše výstupy zůstanou beze změny. Všechny vaše proměnné však zmizí.
+Můžeme si vybrat hned z několika možností, ale tou nejčastější je pravděpodobně *Restart & Run All*, kterou se zresetuje aktuálně běžící kernel a všechny buňky se vyhodnotí znovu. Pouhý *Restart* jen zresetuje kernel, ale vaše výstupy zůstanou beze změny. Všechny vaše proměnné však zmizí z aktuálního prostředí, takže již k nim nebudete mít přístup.
 
-Toto tedy byly ty nejnutnější základy, kterým je třeba porozumět při práci s Jupyter Notebooky. Ostatní funkce jsou poměrně intuitivní a není je třeba moc vysvětlovat. Koncept *learning by doing* zde funguje docela dobře. 
-
-Všechny další tutoriály již budou psány téměř výhradně ve formě Jupyter notebooků, do kterých lze vkládat formátované poznámky nebo i matematické vzorce. Například buňka přepnutá do formátu Markdown (pomocí tlačítka na ovládacím panelu) s následujícím obsahem:
+Toto tedy byly ty nejnutnější základy, kterým je třeba porozumět při práci s Jupyter Notebooky. Ostatní funkce jsou poměrně intuitivní a není je třeba moc vysvětlovat. Koncept *learning by doing* zde funguje docela dobře. Všechny další tutoriály již budou psány téměř výhradně ve formě Jupyter notebooků, do kterých lze vkládat formátované poznámky nebo i matematické vzorce. Například buňka přepnutá do formátu Markdown (pomocí dropdown menu *Code* na ovládacím panelu) s následujícím obsahem:
 
 ```Markdown
 # Vzorečky
