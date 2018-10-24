@@ -244,4 +244,12 @@ dependencies:
   - zlib=1.2.11=ha838bed_2
   - zope=1.0=py37_1
   - zope.interface=4.5.0=py37h14c3975_0
+  - pip:
+    - jupyter-contrib-core==0.3.3
+    - jupyter-contrib-nbextensions==0.5.0
+    - jupyter-highlight-selected-word==0.2.0
+    - jupyter-latex-envs==1.4.4
+    - jupyter-nbextensions-configurator==0.4.0
+    - lxml==4.2.5
+    - pyyaml==3.13
 prefix: /home/sichom/software/miniconda/envs/r_tutorial
