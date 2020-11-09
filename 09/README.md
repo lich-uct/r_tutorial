@@ -1,3 +1,3 @@
-# 3D vizualizace
+# Vizualizace knihovnou `ggplot2` a explorační analýza dat
 
-Nástroje pro 3D vizualizaci v R.
+Především přehled nejdůležitějších statistických vizualizací v knihovně `ggplot2`, ale obashuje i užitečné informace ohledně explorační analýzy dat.
