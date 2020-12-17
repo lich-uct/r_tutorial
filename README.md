@@ -17,7 +17,8 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 7. [Intervaly spolehlivosti](./07)
 8. [Testování statistických hypotéz](./08)
 9. [Vizualizace knihovnou `ggplot2` a explorační analýza dat](./09)
-10. [Procvičování](./procvicovani)
+10. [Lineární regrese](./10)
+11. [Procvičování](./procvicovani)
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
