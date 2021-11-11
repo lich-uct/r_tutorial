@@ -22,6 +22,12 @@ Jakékoliv dotazy lze mimo běžné kanály též směrovat na [issue tracker](h
 
 ## Rychlý návod k instalaci prostředí a spuštění notebooků
 
+### Google Colab
+
+Přejděte na https://colab.research.google.com/ a vyberte možnost vytvoření nového projektu z GitHub. Vložte adresu tohoto repozitáře (https://github.com/lich-uct/r_tutorial/). Ukážou se vám dostupné Jupyter Notebooky v hlavní větvi. Stačí si jen vybrat a notebook se vám spustí přímo v prohližeči.
+
+### Instalace na počítač
+
 Stáhněte se distribuci balíčkovacího systému [Miniconda](https://conda.io/miniconda.html). Pomocí Anaconda Prompt si do hlavního prostředí nainstalujte git, pokud ho nemáte:
 
 ```bash
